@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omega Eye Clinic</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/workspacecss">
+</head>
+<body>
+    <nav>
+        <h1>Omega <span>Eye Cylinc</span></h1>
+        <div>
+        <ul><li><a href="#home">HOME</a></li></ul>
+        <ul><li><a href="#services">SERVICE</a></li></ul>
+        <ul><li><a href="">PATIENTS</a></li></ul>
+        <ul><li><a href="">BLOGS</a></li></ul>
+        </div>
+        <button onclick="showAppointement()" class="btnBookApp">Book Appointement</button>
+    </nav>
+    <div id="notes" class="ogaBookApp">
+    <div class="bookApp">
+        <div class="gendiv">
+            <div onclick="removAppiontement()" id="icon" class="icon">✖</div>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone" required>
+        <button type="submit">Book Appointement</button>
+        </div>
+    </div>
+</div>
+    <section class="hero-sect" id="home">
+        <div class="home">
+            <div class="left">
+                <h1>Who are we ?</h1><hr>
+                <ul>
+                <li><p>We are Omega Eye Specialist Hospital</p></li>
+                <li><p>We offer different medical secrvicess for the Eye</p></li>
+                <li><p>This clinic was designed for the pepole of Udi Local Governement</p></li>
+                <li><p>It explaines the the motto: <br> <span>That my pepole may see......</span> </p></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="slides">
+                    <img src="Images/aehss-16.jpg" class="mySlides" height="400px" width="400px">
+                    <img src="Images/CollageMaker_20220910_214225627.jpg" class="mySlides" height="400px" width="400px">
+                    <img src="Images/ownership.jpg" class="mySlides" height="400px" width="400px">
+                    <img src="Images/run.jpg" class="mySlides" height="400px" width="400px">
+                    <img src="Images/slider05.jpg" class="mySlides" height="400px" width="400px">
+                    <img src="Images/whitemotto.jpg" class="mySlides" height="400px" width="400px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="sercive-sect">
+        <h1>Our Services</h1>
+        <div class="genService">
+        <div class="cards">
+            <img src="Images/Ndubuisi.jpg">
+            <h2>Dr. Ndubuisi Amu</h2>
+            <p>A certified Consultant in the field of Opthamology</p>
+        </div>
+        <div class="descript">
+            We offer 
+        </div>
+    </div>
+    </section>
+    <div class="animate-top"></div>
+    <script src="Js/script.js"></script>
+</body>
+</html>
